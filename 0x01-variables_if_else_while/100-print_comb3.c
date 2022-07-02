@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-/*
+/**
  * main - main block to be executed
  * Description: write program that prints all the combinations of two digits
  * Numbers to be separated with ,, followed by a space
