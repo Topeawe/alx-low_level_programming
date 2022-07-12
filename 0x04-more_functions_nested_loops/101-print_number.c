@@ -3,7 +3,7 @@
 int _putchar(char c);
 
 /**
- * 10-print_number.c - prints numbers
+ * 101-print_number.c - prints numbers
  * @n: number to be printed
  * Return: void
  */
