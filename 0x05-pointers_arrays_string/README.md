@@ -1,1 +1,1 @@
-Readme file on c- pointers,arrays and strings
+All about c-poiters,arrays,and strings
