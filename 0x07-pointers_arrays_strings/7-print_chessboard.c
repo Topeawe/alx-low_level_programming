@@ -17,5 +17,3 @@ void print_chessboard(char (*a)[8])
 	_putchar('\n');
 	}
 }
-Footer
-© 2022 GitHub, Inc.
