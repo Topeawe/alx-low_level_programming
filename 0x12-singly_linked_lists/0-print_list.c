@@ -1,19 +1,25 @@
 #include "lists.h"
-/**
-* list_len - a function that returns the number of elements
-* @h: pointer
-* Return: number of elements
-*/
-size_t list_len(const list_t *h)
-{
-	const list_t *ptr = h;
-	size_t t = 0;
+#include <stdio.h>
 
-	while (ptr != NULL)
+/**
+* print_list - prints all elements
+* @h: pointer
+* Return: number of nodes
+*/
+ size_t print_list(const list_t *h)
 	{
-		ptr = ptr->next;
-		t++;
+	size_t nodes = 0;
+	const list_t *c = h;
+
+	while (c != NULL)
+		{
+		printf("[%d] %s\n", c->len,
+		c->str != NULL ? c->str : "(nil)");
+		c = c->next;
+		nodes++;
 	}
 
-	return (t);
-}
+	return (nodes);
+
+	}
+
