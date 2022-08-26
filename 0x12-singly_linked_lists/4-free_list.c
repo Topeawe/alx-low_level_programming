@@ -19,5 +19,3 @@ void free_list(list_t *head)
 		current = nxt;
 	}
 }
-Footer
-© 2022 GitHub, Inc.
